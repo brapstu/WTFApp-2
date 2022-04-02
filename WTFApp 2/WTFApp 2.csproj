@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>WTFApp_2</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ezgif.com-gif-maker.gif" />
+    <None Remove="HNI_0004.JPG" />
+    <None Remove="theinternet.png" />
+    <None Remove="Windows 98 SE %28101 - Retail Full%29.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ezgif.com-gif-maker.gif" />
+    <Resource Include="HNI_0004.JPG" />
+    <Resource Include="theinternet.png" />
+    <Resource Include="Windows 98 SE (101 - Retail Full).jpg" />
+  </ItemGroup>
+
+</Project>
