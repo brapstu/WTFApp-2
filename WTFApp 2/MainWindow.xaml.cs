@@ -69,6 +69,10 @@ namespace WTFApp_2
                 _ = MessageBox.Show("you won... continue to play or close");
 
             }
+            else
+            {
+                _ = MessageBox.Show($"you need ${1000-x} more... u only got ${x}");
+            }
         }
     }
 }
